@@ -4,10 +4,46 @@
     <title>HTML/CSS Lab</title>
     <link rel="stylesheet" href="https://unpkg.com/basscss@8.0.1/css/basscss.min.css">
     <style>
-
+      .max600 {
+        max-width: 600px;
+      }
+      .muted {
+        color: #999;
+      }
+      .img-height {
+        height: 64px;
+      }
     </style>
   </head>
   <body>
-
+    <div class="flex max600 mx-auto items-center flex-column">
+      <div class="flex border-bottom pb2 pt2">
+        <img src="https://pbs.twimg.com/profile_images/898173359577456641/ArJiiB1L_bigger.jpg" alt="Mariel Frank" class="mr1 img-height">
+        <div class="inline align-top">
+          <span class="bold">mariel frank</span>
+          <span class="muted">@marielsmusings</span>
+          <span class="muted"> &middot; Dec 6</span><br>
+          <div class="mt1 align-top">Just passed my @FlatironSchool Rails project review #LIKEABOSS #CodeNewbie</div>
+        </div>
+      </div>
+      <div class="flex border-bottom pb2 pt2">
+        <img src="https://pbs.twimg.com/profile_images/544985527997304833/0DNfZq49_bigger.png" alt="Flatiron School" class="mr1 img-height">
+        <div class="inline align-top">
+          <span class="bold">Flatiron School</span>
+          <span class="muted">@FlatironSchool</span>
+          <span class="muted"> &middot; Dec 6</span><br>
+          <div class="mt1 align-top">We don't want to wait for our future to load. We support #NetNeutrality because everyone deserves access to a free and open internet. Join the protest: https://www.battleforthenet.com/breaktheinternet/...</div>
+        </div>
+      </div>
+      <div class="flex border-bottom pb2 pt2">
+        <img src="https://pbs.twimg.com/profile_images/446419165444710400/KWnO3_VY_bigger.png" alt="CodeNewbie" class="mr1 img-height">
+        <div class="inline align-top">
+          <span class="bold">CodeNewbie</span>
+          <span class="muted">@CodeNewbies</span>
+          <span class="muted"> &middot; Dec 6</span><br>
+          <div class="mt1 align-top">Missed our #CodeNewbie chat on augmented reality? Here it is! See you next Wed 9PM ET for another #CodeNewbie Chat!</div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
